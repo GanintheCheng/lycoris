@@ -1,0 +1,440 @@
+.bottom {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+.bottom img {
+    width: 200px;
+    border-radius: 10px;
+    z-index: 1001;
+    /* display: inline-block; */
+}
+
+.bottom .text {
+    display: none;
+    opacity: 0;
+    transition: all 1s;
+    font-size: larger;
+}
+
+.bottom .text.active {
+    display: block;
+    opacity: 1;
+    transition: all 1s;
+    font-size: larger;
+}
+
+.header {
+    z-index: 1000;
+    padding: 1rem 1rem;
+}
+
+.header.active {
+    background: #fff;
+    padding: 0rem 0;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+.header.active .logo {
+    color: #000;
+
+}
+
+.header.active .nav a {
+    color: #000;
+}
+
+.header.active #menu-btn {
+    color: #000;
+}
+
+.header .logo {
+    font-size: 5rem;
+    color: #fff;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+
+.header .logo span {
+    color: #0374ff;
+}
+
+.header .nav a {
+    font-size: 2rem;
+    margin-left: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+
+.header .nav {
+    margin-top: 2.5rem;
+}
+
+.header .nav a:hover {
+    color: #0374ff;
+}
+
+.header #menu-btn {
+    display: none;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.home {
+    background-image: url(../img/tc03.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.home .text-md-left {
+    margin-top: 8rem;
+}
+
+.home span {
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 0px 3px 3px gray;
+    margin-left: 12rem;
+}
+
+.home h3 {
+    font-size: 4rem;
+    color: rgb(241, 255, 192);
+    font-weight: bold;
+    padding-top: 1rem;
+    text-shadow: 0px 3px 3px gray;
+}
+
+.home button:hover {
+    background-color: white;
+    color: rgb(61, 127, 247);
+}
+
+.home button {
+    height: 50px;
+    background-color: rgb(61, 127, 247);
+    font-size: large;
+    margin-left: 14.5rem;
+}
+
+.about {
+    margin-top: 2rem;
+}
+
+.about span {
+    font-size: 3.2rem;
+    color: #0374ff;
+    font-weight: bold
+}
+
+.about h3 {
+    font-size: 3.5rem;
+    text-transform: capitalize;
+    color: #31ffb7;
+    padding: 1rem 0;
+}
+
+.about p {
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ccc;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about ul li {
+    padding-top: 1.5rem;
+    font-size: 1.7rem;
+    color: #fff;
+}
+
+.about ul li i {
+    padding-right: 1rem;
+    color: #0374ff;
+}
+
+.about .col-md-6 img:nth-child(1) {
+    height: 380px;
+    display: inline-block;
+}
+
+.about .col-md-6 img:nth-child(2) {
+    width: 260px;
+    display: inline-block;
+}
+
+.counter {
+    margin-top: 10rem;
+    background: url(../img/tc08.png);
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+
+.courses {
+    margin-top: 2rem;
+}
+
+.courses .heading {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.courses .heading span {
+    font-size: 3.2rem;
+    color: #0374ff;
+    font-weight: bold;
+    margin-bottom: 5rem;
+}
+
+.courses .heading h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.courses .box {
+    padding-top: 3rem;
+    width: 370px;
+    height: 430px;
+    border: 0.2rem solid rgba(239, 23, 23, 0.2);
+    text-align: center;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+.courses .box h3 {
+    font-size: 2.7rem;
+    color: white;
+    padding: 0.5rem 0;
+}
+
+.courses .box .image img {
+    height: 260px;
+    margin-bottom: 2rem;
+}
+
+.courses button {
+    width: 140px;
+    height: 30px;
+}
+
+.courses button a {
+    font-size: 1.5rem;
+}
+
+.courses .box:hover .image img {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.pricing {
+    margin-top: 3rem;
+}
+
+.pricing span {
+    font-size: 3.2rem;
+    color: #0374ff;
+    font-weight: bold;
+}
+
+.pricing .heading {
+    text-align: center;
+}
+
+.join span {
+    font-size: 2.5rem;
+    color: #0374ff;
+}
+
+.join h3 {
+    font-size: 2.7rem;
+    color: #fff;
+    padding-top: 1rem;
+}
+
+.join p {
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #ccc;
+}
+
+.join a {
+    font-size: x-large;
+}
+
+
+.join2 {
+    margin-top: 10rem;
+    background: url(../img/ly07.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+    margin-bottom: 10rem;
+}
+
+.show .head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.show .head span {
+    font-size: 3.2rem;
+    color: #0374ff;
+    font-weight: bold;
+}
+
+.show .head h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.show .carousel-item img {
+    height: 400px;
+}
+
+.show .span {
+    font-size: 1.75rem;
+    font-weight: bold;
+}
+
+.show .person-info {
+    width: 300px;
+    /* 设置容器宽度，根据需要调整 */
+}
+
+.show .info-line {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    /* 设置标签之间的垂直间距，根据需要调整 */
+}
+
+.show .label {
+    margin-right: 10px;
+    /* 设置标签和值之间的水平间距，根据需要调整 */
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.show .value {
+    flex: 1;
+    font-size: 1.5rem;
+    /* 让值占据剩余的空间 */
+}
+
+.more{
+    margin-top: 5rem;
+}
+
+.more .head {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.more .head span {
+    font-size: 3.2rem;
+    color: #0374ff;
+    font-weight: bold;
+}
+
+.more .head h3 {
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+
+.more button {
+    background-color: #00B4AA;
+    width: 50px;
+    font-weight: 600;
+    color: #000;
+    border-radius: 10px;
+    height: 30px;
+}
+
+.more .thing{
+    padding: 20px;
+    height: 200px;
+    border-radius: 15px;
+    background-color: #FFF;
+    border: 2px solid #00B4AA;
+}
+
+.more .span{
+    font-size: 2rem;
+    color: red;
+    font-weight: bold;
+}
+
+.tail{
+    margin-top: 10rem;
+}
+
+.tail h1,h2,h3,h4{
+    text-align: center;
+}
+
+.tail .wave{
+    /* 弹性布局 */
+    display: flex;
+    /* 设置投影 */
+    filter: drop-shadow(120px 0 0 rgba(149,191,218,0.5));
+    bottom: 0;
+    background: url(../img/ly07.png);
+}
+.tail .wave div{
+    position: relative;
+    width: 40px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+.tail .wave div::before{
+    content: "";
+    width: 300%;
+    height: 100%;
+    background-color: rgba(149,191,218,1);
+    position: absolute;
+    left: -100%;
+    top: 50%;
+    /* 执行动画：动画名 时长 贝塞尔曲线 无限播放 来回轮流播放 */
+    animation: upDown 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate, wave 2s cubic-bezier(0.445, 0.05, 0.55, 0.95) infinite alternate;
+    /* 通过var函数调用自定义属性--d1、--d2，设置动画延迟 */
+    animation-delay: var(--d1), var(--d2);
+}
+
+/* 定义动画 */
+@keyframes upDown {
+    0%{
+        top: 70%;
+    }
+    100%{
+        top: 30%;
+    }
+}
+@keyframes wave {
+    0%{
+        transform: rotateZ(-20deg);
+    }
+    100%{
+        transform: rotateZ(20deg);
+    }
+}
